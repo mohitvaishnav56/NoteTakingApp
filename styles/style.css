@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Designer";
+    src: url("../assets/fonts/Designer.otf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,3 +14,23 @@ html, body{
     width: 100%;
     background: #181515;
 }
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 20%;
+    background: #181515;
+    border-right: 2px solid #525151c9;
+    color: #fff;   
+}
+
+.right{
+    height: 100%;
+    width: 80%;
+}
+

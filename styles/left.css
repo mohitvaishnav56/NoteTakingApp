@@ -1,0 +1,73 @@
+.left header{
+    width: 100%;
+    background: #181515;
+    padding:  15px 0px;
+    border-bottom: 1px solid #525151c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left header h1{
+    font-family: "Designer";
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.left .btnContainer{
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left   .btnContainer button{
+    padding: 10px 20px;
+    background: #181515;
+    border: 2px solid #706e6ec9;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.left   .btnContainer button:hover{
+    background: #ffffff;
+    color: #181515;
+}
+
+.left .categories{
+    width: 100%;
+    padding: 20px 0px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left .categories .category{
+    width: 100%;
+    padding: 10px 0px;
+    background: #181515;
+    border: 2px solid #706e6ec9;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.left .categories .category:hover{
+    background: #ffffff;
+    color: #181515;
+}
+
+.categories .category h1{
+    font-family: "Open Sans";
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-decoration: underline;
+}
